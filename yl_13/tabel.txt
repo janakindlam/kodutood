@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS `Jkindl_kylastajad` (
   `visits` int(11) NOT NULL
 );
 
-INSERT INTO tpeep_kylastajad (username, passw) VALUES ('admin', SHA1('pass'));
+INSERT INTO Jkindl_kylastajad (username, passw) VALUES ('admin', SHA1('pass'));
